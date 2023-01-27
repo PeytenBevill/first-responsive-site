@@ -59,7 +59,9 @@ section.three {
 }
 
 @media (max-width: 576px) {
-  
+  div.mainContainer {
+    text-align: center;
+  }
   div.containerTwo {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
